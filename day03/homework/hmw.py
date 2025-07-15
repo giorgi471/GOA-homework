@@ -5,10 +5,10 @@ A3_gio = A1_gio + A2_gio, A1_gio * A2_gio, A1_gio / A2_gio, A1_gio - A2_gio
 A1 = 645735
 A1 = "gio"
 A1 = 773944
-A1 = 28,9
+A1 = 28.9
 A1 = "davaleba"
-a1 = "sarke"
-print(sarke)
+A1 = "sarke"
+print(A1)
 
 name = "gio"
 nAme = "vato"
@@ -19,8 +19,8 @@ print = (name, nAme, Name, naMe, namE)
 
 name = "giorgi"         #cvladis daweris dros ar sheidzleba mas win qondea ricxvi
 user_name = "bubunauri"  #aq shuashii iyo araswori simbolo dasmuli
-user_name = "goga"        #aklia intejeri
-user-surname = "axalaia"  #aklia intejeri
+user_name = "goga"        #aklia brwyali
+user_surname = "axalaia"  #aklia brwyaly
 
 A_1 = "magidaze"
 A_2 = "saxazavi"
