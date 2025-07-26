@@ -1,0 +1,5 @@
+A1 = int(input("semoitane ricxvi"))
+A2 = int(input("semoitane meore ricxvi"))
+print(A1>A2)
+print(A1<A2)
+print(A1==A2)
