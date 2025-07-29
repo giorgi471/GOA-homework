@@ -38,8 +38,8 @@ for i in range(32):
 A1 = (input("shemoitane rame"))
 A2 = (input("shemoitane rame"))
 A3 = (input("shemoitane rame"))
-A4 = (input("shemoitane ricxvi"))
-print(A1+A2+A3+A4)
+A4 = int(input("shemoitane ricxvi"))
+print(str(A4)+A1+A2+A3)
 
 A1 = "5"
 A2 = 5
