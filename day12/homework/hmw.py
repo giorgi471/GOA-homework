@@ -3,8 +3,10 @@
 for i in range(51):
     print("hallo world")
 
-for i in range(3,18):
+i = 3
+while i < 18:
     print(i)
+    i = i +1
 
 A1 = int(input("shemoitane paroli"))
 password = A1
