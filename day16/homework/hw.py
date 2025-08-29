@@ -33,7 +33,7 @@ else:
 
 
 
-real_password = "gio741"
+password = "gio741"
 
 
 attempts = 0
@@ -45,7 +45,7 @@ while True:
     if A1 == "nah strong password":
         print("პაროლის გამოცნობა შეწყვიტე.")
         break
-    elif A1 == real_password:
+    elif A1 == password:
         print("გილოცავ, გამოიცანი პაროლი!")
         print(f"სულ {attempts} ცდა დაგჭირდა.")
         break
