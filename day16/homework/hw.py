@@ -1,6 +1,6 @@
 A1 = int(input("shemoitane ricxvi"))
-ricxvi = A1
-if ricxvi >0:
+
+if  A1 >0:
     print("ricxvi dadebitia")
 else:
     print("ricxvi uaryopitia")

@@ -1,5 +1,5 @@
-A1 = (input("shemoitane ricxvi"))
-A2 = (input("shemoitane ricxvi"))
+A1 = int(input("shemoitane ricxvi"))
+A2 = int(input("shemoitane ricxvi"))
 
 
 
@@ -28,7 +28,7 @@ else :
 
 
 
-A1 = int(input("shemoitane ricxvi"))
+A1 = int(input("shemoitane ricxvi "))
 A2 = int(input("shemoitane ricxvi"))
 
 
