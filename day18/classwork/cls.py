@@ -17,14 +17,31 @@ else:
 
 month = int(input("შეიყვანეთ რიცხვი 1-დან 12 ჩათვლით: "))
 
+month = int(input("გთხოვთ შეიყვანოთ თვე (1-12): "))
 
-if month in [12, 1, 2]:
+if month == 12:
     print("ზამთარი")
-elif month in [3, 4, 5]:
+elif month == 1:
+    print("ზამთარი")
+elif month == 2:
+    print("ზამთარი")
+elif month == 3:
     print("გაზაფხული")
-elif month in [6, 7, 8]:
+elif month == 4:
+    print("გაზაფხული")
+elif month == 5:
+    print("გაზაფხული")
+elif month == 6:
     print("ზაფხული")
-elif month in [9, 10, 11]:
+elif month == 7:
+    print("ზაფხული")
+elif month == 8:
+    print("ზაფხული")
+elif month == 9:
+    print("შემოდგომა")
+elif month == 10:
+    print("შემოდგომა")
+elif month == 11:
     print("შემოდგომა")
 else:
     print("გთხოვთ შეიყვანოთ ვალიდური რიცხვი (1-დან 12 ჩათვლით)")
