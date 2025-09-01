@@ -51,7 +51,7 @@ for i in range(50,100,2):
 i = 20
 while i <= 40:
     print(i)
-    i + 1 == i
+    i == i + 1
 
 
 
