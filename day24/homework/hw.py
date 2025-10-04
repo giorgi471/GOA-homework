@@ -100,7 +100,7 @@ A1 = "agivorsbgitr"
 
 
 
-A2 =  A1[1] +  A1[4] + A1[4] +  A1[0]
+A2 =  A1[1] +  A1[4] + A1[1] +  A1[0]
 
 print(A2)
 
@@ -122,6 +122,21 @@ print(A4)
 
 
 
+qalaqi = ["tbilisi", "batumi", "londoni", "qutaisi", "gori", "ankara"]
+
+D1 = int(input("shemoitane ricxvi"))
+D2 = int(input("shemoitane ricxvi"))
+
+if D1<D2:
+    print(qalaqi[D1], qalaqi[D2])
+
+elif D2>D1:
+    print("shecvale indxebi adgilebit")
+    print(qalaqi[D2], qalaqi[D1])
+
+else :
+    print("orive ertia")
+    print(qalaqi[D1])
 
 
 
@@ -130,8 +145,19 @@ print(A4)
 
 
 
+saxeli = "giorgii"
+
+for i in saxeli:
+    print(i)
 
 
+
+
+i = 0
+
+while i <6:
+    print(saxeli[i])
+    i = i + 1
 
 
 
