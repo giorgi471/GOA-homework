@@ -18,8 +18,8 @@ print(word[:-5])
 
 
 letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g']
-print(letters[1], letters[3], letters[5])
-print(letters[-6], letters[-4], letters[-2])
+print(letters[0], letters[2], letters[4])
+print(letters[-7], letters[-5], letters[-3])
 
 
 

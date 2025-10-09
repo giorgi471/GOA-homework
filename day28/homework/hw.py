@@ -1,6 +1,6 @@
 a = [1,2,3,4,5,6,7,8,9,10]
 print(a[:5])
-print(a[-3:])
+print(a[7:])
 print(a[3:8])
 
 
@@ -29,7 +29,7 @@ print(days[-2:])
 s = "Python slicing is very powerful"
 print(s[:6])
 print(s[7:14])
-print(s[22:])
+print(s[23:])
 
 
 
