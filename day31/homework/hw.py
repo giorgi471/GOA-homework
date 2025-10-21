@@ -53,7 +53,13 @@ elif numbers[3] % 2 != 0 or numbers[3] < 100:
 
 
 
+A1 = "hello"
+A2 = "world"
 
+if A1 != A2:
+    print("სტრინგები არ არის ტოლი")
+else:
+    print("სტრინგები ტოლია")
 
 
 
