@@ -33,7 +33,7 @@ print("კენტი რიცხვების რაოდენობა:"
 
 
 nums = [10, 25, 33, 47, 80, 99]
-for i in nums:
+for i in range(0 , 6):
     if i > 50:
         print(i, "მეტი 50-ზე")
     else:
@@ -51,7 +51,7 @@ print("ლუწი რიცხვების ჯამია:", A1)
 
 
 words = ["apple", "banana", "avocado", "pear"]
-for i in words:
+for i in range(0 , 4):
     if i[0] == "a":
         print(i)
 
@@ -76,7 +76,7 @@ for i in range(21):
 
 A1 = [5, 15, 25, 35, 45, 55]
 
-for i in A1:
+for i in range(0 ,6 ):
     if A1 % 5 == 0:
         print(A1)
 
