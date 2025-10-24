@@ -87,12 +87,6 @@ for i in range(0 ,6 ):
 
 
 
-#A1 = input("შეიყვანე სიტყვა: ")
-
-#print("სიტყვის ასოები:")
-#for i in ?:
-#   print(i)
-
 
 
 
