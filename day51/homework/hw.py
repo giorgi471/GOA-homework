@@ -46,8 +46,16 @@ print(A1)
 
 
 
+A1 = [4, 8, 10, 6, 12]
+
+A2= 0
+for i in A1:
+    A2 += i
+
+A3 = len(A1)
+A4 = A2 / A3
+
+print(A4)
 
 
-
-
-
+                            
