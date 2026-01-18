@@ -1,0 +1,26 @@
+div table tr td{
+    font-size: 15px;
+    color: blue;
+    background-color: green;
+    text-align: center;
+
+}
+div nav table tr td{
+    font-size: 18px;
+    color: green;
+    background-color: red;
+    text-align: center;
+    border: 12px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
