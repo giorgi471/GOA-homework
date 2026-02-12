@@ -217,8 +217,8 @@ print(passw("pyt23n123"))
 def texts(text):
     return text.upper()
 print(texts("gio"))
-    
-    
+print(texts("data"))
+print(texts("ira")) 
 
 
 
