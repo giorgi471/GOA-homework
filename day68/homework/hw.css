@@ -1,0 +1,94 @@
+p{
+    text-transform: uppercase;
+}
+
+
+
+
+
+#g1{
+    text-transform: lowercase;
+}
+
+
+
+
+
+h1{
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
+#g2{
+    text-transform: capitalize;
+}
+#g3{
+    text-transform: uppercase;
+}
+#g4{
+    text-transform: lowercase;
+}
+
+
+
+
+
+.A1{
+    text-shadow: 10px  12px  6px  blue;
+}
+
+
+
+
+
+
+
+
+
+#k1{
+    text-shadow:6px 10px  5px rgb(0, 55, 255) ;
+}
+#k2{
+    text-shadow:12px -1px  4px rgb(255, 77, 0) ;
+}
+#k3{
+    text-shadow:1px 30px  6px rgb(255, 0, 64) ;
+}
+#k4{
+    text-shadow:-12px 0px  3px rgb(17, 0, 255) ;
+}
+#k5{
+    text-shadow:13px -4px  0px rgb(0, 255, 64) ;
+}
+
+
+
+
+
+
+
+#q1{
+    text-decoration: underline dotted;
+
+}
+#q2{
+    text-decoration:overline dashed;
+    
+}
+#q3{
+    text-decoration:line-through double;
+    
+}
+#q4{
+    text-decoration:underline solid;
+    
+}
+
+
+
