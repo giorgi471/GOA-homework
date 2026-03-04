@@ -1,0 +1,158 @@
+#p1 {
+    font-weight: normal;
+}
+
+#p2 {
+    font-weight: bold;
+}
+
+#p3 {
+    font-weight: bolder;
+}
+
+#p4 {
+    font-weight: lighter;
+}
+
+#p5 {
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#h1_1 {
+    font-weight: 100;
+}
+
+#h1_2 {
+    font-weight: 200;
+}
+
+#h1_3 {
+    font-weight: 300;
+}
+
+#h1_4 {
+    font-weight: 400;
+}
+
+#h1_5 {
+    font-weight: 500;
+}
+
+#h1_6 {
+    font-weight: 600;
+}
+
+#h1_7 {
+    font-weight: 700;
+}
+
+#h1_8 {
+    font-weight: 800;
+}
+
+#h1_9 {
+    font-weight: 900;
+}
+
+
+
+
+
+
+
+
+#htmlList {
+    font-weight: lighter;
+}
+
+#cssList {
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+#table1 {
+    font-weight: 900;           
+    color: rgb(0, 128, 0);        
+    font-size: 24px;               
+}
+
+
+
+#table2 {
+    font-weight: bold;
+    color: rgb(255, 105, 180);        
+    font-size: 30px;                 
+}
+
+
+
+
+
+
+
+
+
+#parentDiv {
+    color: white;
+    background-color: rgb(0, 128, 128);
+    border: 4px solid black;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 5px gray;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+
+
+#inheritDiv {
+    color: yellow;
+    background-color: rgb(128, 0, 128);
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    text-shadow: 3px 3px 6px black;
+    text-decoration: overline;
+    text-transform: capitalize;
+    border: 5px dashed red;
+}
+
+
+
+.btn {
+    background-color: rgb(0, 0, 255);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    border: 3px solid rgb(255, 255, 0);
+    text-align: center;
+    text-shadow: 1px 1px 3px black;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+
+
+
+
+
