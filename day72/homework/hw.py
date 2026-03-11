@@ -10,7 +10,19 @@
 
 
 
+# def get_sum(a,b) : 
 
+# total = 0
+
+# if a < b:
+# for i in range(a, b + 1):
+# total += i
+
+# else:
+# for i in range(b, a + 1):
+# total += i
+
+# return total
 
 
 
@@ -28,7 +40,7 @@
 
 
 
-#5
+#4
 # def well(x):
 #     good_count = 0
 #     for i in x:
@@ -44,6 +56,13 @@
 
 
 
+#6
+# total = 0
+# for i in str(abs(number)):
+# total += int(i)
+# return total
+
+# def sum_digits(number):
 
 
 
@@ -54,8 +73,7 @@
 #     result = []
 #     for i in range(len(lines)):
 #         result.append(str(i+1) + ": " + lines[i])
-#     return result
-
+#   return result
 
 
 
