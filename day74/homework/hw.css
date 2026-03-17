@@ -1,0 +1,50 @@
+/* 1 */
+.link1:link {
+  color: blue;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+/* 2 */
+.link2:hover {
+  font-weight: bold;
+  color: red;
+}
+
+/* 3 */
+.link3:visited {
+  color: purple;
+  font-family: Arial;
+}
+
+/* 4 */
+.link4:active {
+  background-color: yellow;
+  border: 2px solid black;
+}
+
+/* 5 */
+.link5:hover {
+  text-decoration: underline;
+  color: green;
+  font-size: 20px;
+}
+
+/* 6 */
+.link6:visited {
+  background-color: lightgray;
+  color: darkblue;
+  text-align: center;
+}
+
+/* 7 */
+.link7:link {
+  color: yellow;
+  font-family: Verdana;
+}
+
+.link7:active {
+  border: 3px solid red;
+  background-color: pink;
+}
+

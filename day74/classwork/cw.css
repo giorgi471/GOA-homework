@@ -1,0 +1,37 @@
+#gio:link{
+    color: brown;
+    background-color: blueviolet;
+    text-align: center;
+    font-size: 45px;
+    text-decoration: none;
+
+}
+
+
+#gio1:hover{
+    color: red;
+    background-color: bisque;
+    text-align: center;
+    font-size: 45px;
+    text-decoration: none;
+
+}
+
+
+#gio2:active{
+    color: yellow;
+    background-color: green;
+    text-align: center;
+    font-size: 45px;
+    text-decoration: none;
+
+}
+
+#gio3:visited{
+    color: palevioletred;
+    background-color: burlywood;
+    text-align: center;
+    font-size: 45px;
+    text-decoration: none;
+
+}
