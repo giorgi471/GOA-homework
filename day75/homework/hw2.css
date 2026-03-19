@@ -91,6 +91,3 @@ ul.menu {
     list-style-type: none;
 }
 
-ul.menu li::after {
-    color: black;
-}
