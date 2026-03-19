@@ -1,0 +1,96 @@
+ol.countries {
+    list-style-type: upper-alpha;
+    color: white;
+    background-color: #2c3e50;
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Arial;
+    text-decoration: underline;
+}
+
+ol.countries ul {
+    list-style-type: square;
+    color: yellow;
+    background-color: #34495e;
+    border: 1px solid white;
+    font-weight: normal;
+    font-size: 16px;
+    font-family: Verdana;
+    text-decoration: none;
+}
+
+
+
+
+
+ol.languages {
+    list-style-type: lower-roman;
+
+}
+
+ol.languages li {
+    color: black;
+    background-color: lightgray;
+    border: 2px solid black;
+    font-weight: normal;
+    font-family: Arial;
+    font-size: 18px;
+}
+
+ol.languages li:hover {
+    color: white;
+    background-color: darkblue;
+    border: 2px solid red;
+    font-weight: bold;
+    font-family: Verdana;
+    font-size: 20px;
+}
+
+ol.languages ul {
+    list-style-type: circle;
+}
+
+ol.languages ul li:hover {
+    background-color: green;
+}
+
+
+
+
+
+
+
+
+
+ul.restaurants {
+    list-style-type: none;
+}
+
+ul.restaurants li {
+    color: black;
+    background-color: #f1c40f;
+    border: 2px solid black;
+    font-weight: normal;
+    font-family: Arial;
+    font-size: 18px;
+}
+
+
+ul.restaurants li:active {
+    color: white;
+    background-color: red;
+    border: 2px solid blue;
+    font-weight: bold;
+    font-family: Verdana;
+    font-size: 20px;
+}
+
+
+ul.menu {
+    list-style-type: none;
+}
+
+ul.menu li::after {
+    color: black;
+}

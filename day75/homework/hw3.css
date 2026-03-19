@@ -1,0 +1,85 @@
+ul.hobbies {
+    list-style-type: circle;
+    text-align: center;
+}
+
+ul.hobbies li {
+    color: black;
+    background-color: lightblue;
+    border: 2px solid black;
+    font-weight: normal;
+    font-family: Arial;
+    font-size: 18px;
+}
+
+ul.hobbies li:hover {
+    color: white;
+    background-color: darkblue;
+    border: 2px solid red;
+    font-weight: bold;
+    font-family: Verdana;
+    font-size: 20px;
+}
+
+
+ol.sublist {
+    list-style-type: none;
+}
+
+
+
+
+
+ul.food {
+    list-style-type: disc;
+    text-align: right;
+}
+
+ul.food li {
+    color: black;
+    background-color: #f9e79f;
+    border: 2px solid black;
+    font-weight: normal;
+    font-family: Arial;
+    font-size: 18px;
+}
+
+
+ul.vitamins {
+    list-style-type: none;
+}
+
+
+
+
+
+
+
+ul.square {
+    list-style-type: square;
+}
+
+ul.circle {
+    list-style-type: circle;
+}
+
+ul.none {
+    list-style-type: none;
+}
+
+ol.decimal {
+    list-style-type: decimal;
+}
+
+ol.roman {
+    list-style-type: upper-roman;
+}
+
+ol.alpha {
+    list-style-type: lower-alpha;
+}
+
+li {
+    font-family: Arial;
+    font-size: 18px;
+}
