@@ -1,0 +1,59 @@
+body {
+  font-family: Arial;
+}
+
+/* 1) Invoice Table */
+.table1 {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table1 thead {
+  background-color: #333;
+  color: white;
+}
+
+.table1 th {
+  text-align: left;
+}
+
+.table1 td {
+  border-bottom: 1px solid #ddd;
+}
+
+.table1 tr.active {
+  background-color: #4a86e8;
+  color: white;
+}
+
+/* 2) Grid Table */
+.table2 {
+  border-collapse: collapse;
+  width: 60%;
+}
+
+.table2 td, .table2 th {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.table2 th {
+  background-color: #f2f2f2;
+}
+
+/* 3) Hover Table */
+.table3 {
+  border-collapse: collapse;
+  width: 70%;
+}
+
+.table3 th, .table3 td {
+  border: 1px solid gray;
+  text-align: center;
+}
+
+.table3 tr:hover {
+  background-color: lightblue;
+}
+
+

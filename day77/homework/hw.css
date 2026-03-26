@@ -1,0 +1,69 @@
+/* 1) ჰობები */
+.hobby-list {
+  list-style-position: inside;
+  color: darkblue;
+  background-color: lightgray;
+  border: 3px solid black;
+  font-size: 18px;
+  font-weight: bold;
+  width: 400px;
+}
+
+/* 2) პროდუქტები */
+.product-list {
+  list-style-image: url("https://cdn-icons-png.flaticon.com/16/1046/1046857.png");
+  font-family: Arial;
+  color: darkgreen;
+  background-color: #f0fff0;
+  border: 2px solid green;
+  font-size: 18px;
+  text-align: center;
+  width: 300px;
+}
+
+/* 3) UL და OL */
+.ul-style {
+  list-style-type: square;
+  background-color: #e6f2ff;
+  border: 2px solid blue;
+  font-size: 18px;
+  font-family: Georgia;
+}
+
+.ol-style {
+  list-style-type: upper-roman;
+  background-color: #fff0f5;
+  border: 2px solid red;
+  font-size: 18px;
+  font-family: "Courier New";
+}
+
+/* 4) shorthand + hover */
+.custom-list {
+  list-style: square inside url("https://cdn-icons-png.flaticon.com/16/1828/1828884.png");
+  font-family: Verdana;
+  background-color: #f9f9f9;
+  border: 2px solid black;
+}
+
+.custom-list li {
+  border: 1px solid gray;
+}
+
+.custom-list li:hover {
+  background-color: black;
+  color: white;
+}
+
+/* 5) ისტორიული მოვლენები */
+.history-list {
+  list-style-image: url("https://cdn-icons-png.flaticon.com/16/684/684908.png");
+  font-family: Tahoma;
+  font-weight: bold;
+  font-size: 18px;
+  color: darkred;
+  background-color: #fff5e6;
+  border: 3px solid brown;
+  width: 350px;
+  text-align: left;
+}
