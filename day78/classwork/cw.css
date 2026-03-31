@@ -1,0 +1,22 @@
+input{
+    outline: none;
+    background-color: green;
+    border: 1px solid red;
+    color: blue;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    height: 20px;
+    width: 200px;
+}
+
+
+
+input:focus{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-weight: lighter;
+}
+
+

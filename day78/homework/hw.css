@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+}
+
+
+.contact-box {
+    background: white;
+    width: 250px;
+    text-align: center;
+}
+
+
+.contact-box input {
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+
+.login-box {
+    background: white;
+    width: 250px;
+    text-align: center;
+}
+
+
+.login-box-pink button {
+    background: #ff4f87;
+}
+
+
+.login-box-blue h3 {
+    color: #4db6d6;
+}
+
+.login-box-blue button {
+    background: #4db6d6;
+}
+
+.login-box input {
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+.login-box button {
+    width: 100%;
+    border: none;
+    color: white;
+}
+
+
+.login-box-green h3{
+    color:black;
+}
+
+.login-box-green input{
+    border-radius: 1px ;
+    background-color: #ccc;
+}
+
+
+.login-box-green button{
+    background-color: green;
+}
+
+

@@ -1,0 +1,71 @@
+/* საერთო სტილი */
+body {
+    font-family: Arial, sans-serif;
+  
+}
+
+/* ყველა ფორმა */
+form {
+    background: white;
+    border-radius: 15px;
+    width: 300px;
+  
+}
+
+/* ტექსტის input */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+/* focus ეფექტი */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #6a5acd;
+    outline: none;
+}
+
+/* hover ეფექტი */
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="password"]:hover {
+    border-color: #00bcd4;
+}
+
+/* ღილაკი */
+button[type="submit"] {
+    width: 100%;
+    background: #6a5acd;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+/* hover */
+button[type="submit"]:hover {
+    background: #483d8b;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
