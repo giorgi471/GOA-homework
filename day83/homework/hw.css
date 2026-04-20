@@ -1,0 +1,232 @@
+/* 5) gap არის CSS თვისება, რომელიც გამოიყენება ელემენტებს შორის დაშორებისთვის
+   მუშაობს flexbox და grid layout-ზე
+   მაგალითად gap: 20px ნიშნავს ელემენტებს შორის 20px დაშორებას */
+
+/* საერთო სტილი */
+.container {
+  width: 500px;
+  height: 200px;
+  display: flex;
+  border: 2px solid black;
+  margin-bottom: 30px;
+}
+
+.box {
+  width: 50px;
+  height: 50px;
+  background: red;
+}
+
+/* 6) მარჯვნივ */
+.right {
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+/* 7) ცენტრში (ორივე ღერძზე) */
+.center {
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+/* 8) ქვედა მარჯვენა კუთხე */
+.bottom-right {
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+/* 9) ფოტოები */
+.parent {
+  width: 900px;
+  height: 900px;
+  background: lightgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+
+
+
+/* 10) ნავიგაცია */
+.nav {
+  border: 2px solid black;
+  display: flex;
+  list-style: none;
+  gap: 50px;
+  padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+/* ================= 12) LOGIN FORM ================= */
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.login-wrapper {
+  height: 100vh;
+  background: #4bb3c7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  background: #eee;
+  padding: 30px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.login-box h3 {
+  color: #4bb3c7;
+}
+
+.login-box input {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.login-box button {
+  padding: 10px;
+  background: #4bb3c7;
+  color: white;
+  border: none;
+}
+
+/* ================= 13) FLEX-WRAP ================= */
+/*
+flex-wrap განსაზღვრავს გადავა თუ არა ელემენტები ახალ ხაზზე
+
+მნიშვნელობები:
+1) nowrap (default) → ელემენტები არ გადავლენ ახალ ხაზზე
+2) wrap → ელემენტები გადავა ახალ ხაზზე საჭიროებისას
+3) wrap-reverse → გადადის ახალ ხაზზე მაგრამ შებრუნებული მიმართულებით
+
+მაგალითები:
+.wrap1 { flex-wrap: nowrap; }
+.wrap2 { flex-wrap: wrap; }
+.wrap3 { flex-wrap: wrap-reverse; }
+*/
+
+/* ================= 14) WRAP EXAMPLE ================= */
+.wrap-container {
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  border: 2px solid black;
+}
+
+.wrap-container div {
+  width: 120px;
+  height: 50px;
+  background: orange;
+}
+
+/* ================= 15) RESPONSIVE ================= */
+.responsive {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.responsive div {
+  width: 100px;
+  height: 50px;
+  background: green;
+}
+
+/* ================= 16) NO WRAP ================= */
+.nowrap {
+  width: 300px;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: auto;
+}
+
+.nowrap div {
+  width: 100px;
+  height: 50px;
+  background: red;
+  margin: 5px;
+}
+
+/* ================= 17) ALIGN-SELF ================= */
+.align-parent {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  border: 2px solid black;
+}
+
+.align-parent div {
+  width: 50px;
+  height: 50px;
+  background: purple;
+  margin: 5px;
+}
+
+.align-parent div:nth-child(2) {
+  align-self: flex-start;
+}
+
+/* ================= 18) DIFFERENT POSITIONS ================= */
+.align-different {
+  height: 400px;
+  display: flex;
+  border: 2px solid black;
+}
+
+.align-different div {
+  width: 50px;
+  height: 50px;
+  background: blue;
+  margin: 5px;
+}
+
+.align-different div:nth-child(1) {
+  align-self: flex-end;
+}
+
+.align-different div:nth-child(2) {
+  align-self: flex-start;
+}
+
+.align-different div:nth-child(3) {
+  align-self: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
