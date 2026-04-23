@@ -1,0 +1,109 @@
+/* 1) flex-grow ახსნა 
+flex-grow განსაზღვრავს რამდენად გაიზრდება ელემენტი,
+თუ container-ში დარჩება თავისუფალი სივრცე */
+
+
+
+
+.container {
+    display: flex;
+    margin: 20px 0;
+    gap: 10px;
+}
+
+.item {
+    background: lightgray;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+.task2 .item {
+    width: 100px;
+}
+
+.task2 .grow {
+    flex-grow: 1;
+    background: lightgreen;
+}
+
+
+
+.nav {
+    display: flex;
+    align-items: center;
+    background: #222;
+    color: white;
+    padding: 10px;
+}
+
+.logo {
+    width: 50px;
+}
+
+.menu {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+}
+
+button {
+    padding: 8px 15px;
+}
+
+
+.task4 .item {
+    flex-grow: 1;
+    background: lightblue;
+    transition: 0.3s;
+}
+
+.task4 .item:hover {
+    background: orange;
+}
+
+.task4 .special:hover {
+    flex-grow: 3;
+}
+
+
+
+.task5 .one {
+    flex-basis: 150px;
+    background: pink;
+}
+
+.task5 .two {
+    flex-basis: 150px;
+    background: lightgreen;
+}
+
+.task5 .three {
+    flex-basis: 150px;
+    background: lightblue;
+}
+
+
+
+.task6 .a {
+    flex-basis: 100px;
+    background: red;
+}
+
+.task6 .b {
+    flex-basis: 200px;
+    background: green;
+}
+
+.task6 .c {
+    flex-basis: 300px;
+    background: blue;
+}
+
+.task6 .d {
+    flex-basis: 150px;
+    background: purple;
+}

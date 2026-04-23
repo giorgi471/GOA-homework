@@ -1,0 +1,60 @@
+#a1{
+    height: 700px;
+    width: 700pz;
+    border: 2px red solid;
+}
+
+
+.a2{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+}
+
+body{
+    height: 100px;
+}
+
+#a1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+
+.a2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 2px red solid;
+}
+
+
+
+
+#q1{
+    flex-grow: 2;
+}
+
+#q3{
+    flex-basis: 200px;
+}
+
+#q5{
+    flex-shrink: 5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
