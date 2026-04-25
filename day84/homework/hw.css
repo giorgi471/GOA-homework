@@ -107,3 +107,128 @@ button {
     flex-basis: 150px;
     background: purple;
 }
+
+
+
+
+
+
+
+
+
+
+
+/* 7) flex-shrink ახსნა */
+/*
+flex-shrink განსაზღვრავს რამდენად "შეიკუმშოს" ელემენტი,
+როცა container-ში ადგილი აღარ არის საკმარისი
+
+*/
+
+
+
+.container {
+  display: flex;
+  margin: 20px 0;
+  gap: 10px;
+  border: 2px solid black;
+}
+
+.item {
+  background: lightblue;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+.task8 {
+  width: 400px;
+}
+
+.task8 .item {
+  flex-basis: 200px;
+}
+
+.task8 .no-shrink {
+  flex-shrink: 0;
+  background: lightgreen;
+}
+
+
+
+.task9 {
+  width: 400px;
+}
+
+.task9 .one {
+  flex-basis: 200px;
+  flex-shrink: 1;
+  background: pink;
+}
+
+.task9 .two {
+  flex-basis: 200px;
+  flex-shrink: 2;
+  background: lightgreen;
+}
+
+.task9 .three {
+  flex-basis: 200px;
+  flex-shrink: 3;
+  background: lightcoral;
+}
+
+
+
+.task10 {
+  width: 400px;
+  flex-wrap: wrap;
+}
+
+.task10 .item {
+  flex-basis: 300px;
+  flex-shrink: 0;
+  background: orange;
+}
+
+
+
+.nav {
+  display: flex;
+  align-items: center;
+  background: #222;
+  color: white;
+  padding: 10px;
+}
+
+.logo {
+  width: 60px;
+  flex-shrink: 0;
+}
+
+.menu {
+  display: flex;
+  gap: 15px;
+  flex-basis: 400px;
+  flex-shrink: 2;
+  justify-content: center;
+}
+
+button {
+  padding: 8px 15px;
+  flex-shrink: 0; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
