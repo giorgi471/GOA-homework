@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+  }
+
+  body {
+    background: #e6eff6;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .card {
+    width: 600px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .top {
+    background: #ffffff;
+    padding: 25px; 
+    display: flex;
+    flex-direction: column;
+    gap: 18px; 
+    margin-bottom: 25px;
+  }
+
+  .top h2 {
+    color: #2ab2af;
+  }
+
+  .top h4 {
+    color: #c0df34;
+  }
+
+  .top p {
+    color: #777;
+    line-height: 1.4;
+  }
+
+  .bottom {
+    display: flex;
+  }
+
+  .left, .right {
+    flex: 1; 
+    padding: 25px; 
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+  }
+
+  .left {
+    background: #2ab2af;
+  }
+
+  .right {
+    background: #4abebd;
+  }
+
+  .price {
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .price span {
+    font-size: 13px;
+  }
+
+  button {
+    margin-top: 10px;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background: #c0df34;
+    font-weight: bold;
+    color: white;
+
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 6px; 
+    font-size: 14px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

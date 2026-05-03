@@ -1,16 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&display=swap');
-
-
-
-
-
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Lexend+Deca:wght@100..900&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Inter", sans-serif;
+  font-family: "Lexend Deca", sans-serif;
 }
 
 body {
@@ -34,32 +28,32 @@ body {
   color: white;
   display: flex;
   flex-direction: column;
+  gap: 30px;
+
 }
 
 .card img {
   width: 60px;
-  margin-bottom: 35px;
 }
 
 .card h2 {
   font-size: 32px;
-  margin-bottom: 25px;
 }
 
 .card p {
   font-size: 15px;
   line-height: 1.7;
-  margin-bottom: 60px;
  
 }
 
 .card button {
-  margin-top: auto; 
+  margin-top:70px; 
   padding: 12px 28px;
   border: none;
   border-radius: 30px;
   background: white;
   font-weight: bold;
+  
  
 }
 
@@ -79,15 +73,18 @@ body {
 
 
 
+.sedan button{
+  color: #e38826;
+}
+
+.suv button{
+  color: #006970;
+}
 
 
-
-
-
-
-
-
-
+.luxury button{
+  color: #e38826;
+}
 
 
 
