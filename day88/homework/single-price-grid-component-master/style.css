@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Karla', sans-serif;
+    font-family: "Karla", sans-serif;
   }
 
   body {
@@ -26,11 +26,11 @@
 
   .top {
     background: #ffffff;
-    padding: 25px; 
+    padding: 40px; 
     display: flex;
     flex-direction: column;
     gap: 18px; 
-    margin-bottom: 25px;
+   
   }
 
   .top h2 {
@@ -43,7 +43,7 @@
 
   .top p {
     color: #777;
-    line-height: 1.4;
+    
   }
 
   .bottom {
@@ -52,11 +52,12 @@
 
   .left, .right {
     flex: 1; 
-    padding: 25px; 
+    padding: 40px; 
     color: white;
     display: flex;
     flex-direction: column;
     gap: 20px;
+
     
   }
 
