@@ -1,0 +1,38 @@
+
+div{
+    border: 2px black solid;
+    height: 200px;
+    width: 200px;
+}
+
+#q1{
+    background-color: blue;
+}
+
+
+
+#q2{
+    background-color: red;
+}
+
+
+
+
+#q3{
+    background-color:yellow ;
+}
+
+
+
+#q4{
+    background-color:purple ;
+}
+
+#q3{
+    position: relative;
+    left: 105px;
+    top: 65px;
+}
+
+
+

@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #dfe3f0;
+}
+
+.card {
+    width: 700px;
+    height: 500px;
+    background: white;
+    border-radius: 30px;
+    display: flex;
+    overflow: hidden;
+}
+
+.left {
+    width: 50%;
+    height: 100%;
+    background: rgb(75, 54, 243);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    color: white;
+}
+
+.left h2 {
+    color: #cfc7ff;
+    margin-bottom: 30px;
+}
+
+.circle {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background: rgb(70, 46, 222);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.circle h1 {
+    font-size: 70px;
+}
+
+.circle p {
+    color: #b7adff;
+}
+
+.left h3 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.left .text {
+    width: 250px;
+    text-align: center;
+    color: #d9d5ff;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.right {
+    width: 50%;
+    padding: 40px;
+}
+
+.right h2 {
+    margin-bottom: 30px;
+    color: #222;
+}
+
+.numbers {
+    display: flex;
+    gap: 5px;
+}
+
+.black {
+    color: #303b59;
+    font-weight: 800;
+}
+
+.gray {
+    color: #9a9a9a;
+}
+
+.item {
+    width: 100%;
+    height: 60px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.reaction {
+    background: #fff1f1;
+    color: #ff5757;
+}
+
+.memory {
+    background: #fff8e7;
+    color: #e6a700;
+}
+
+.verbal {
+    background: #eefcf7;
+    color: #00a878;
+}
+
+.visual {
+    background: #f3f1ff;
+    color: #3d3dcb;
+}
+
+button {
+    width: 100%;
+    height: 60px;
+    border: none;
+    border-radius: 40px;
+    background: #2d3b67;
+    color: white;
+    font-size: 20px;
+
+
+
+}

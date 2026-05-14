@@ -29,6 +29,7 @@ body {
 .left {
     flex: 1;
     display: flex;
+    width: 50%;
 }
 
 .left img {
@@ -43,6 +44,7 @@ body {
     justify-content: center;
     padding: 35px;
     gap: 20px;
+    width: 50%;
 }
 
 .perfume {
