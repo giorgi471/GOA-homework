@@ -28,8 +28,7 @@
 
 
 
-.static-box,
-.relative-box {
+.static-box,.relative-box {
     width: 100px;
     height: 100px;
     margin: 10px;
