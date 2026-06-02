@@ -1,0 +1,152 @@
+/* 6 */
+.sticky-nav{
+    position: sticky;
+    top: 0;
+
+    background: darkblue;
+    color: white;
+    padding: 20px;
+}
+
+/* 7 */
+.profile{
+    width: 150px;
+    position: relative;
+}
+
+.profile img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.status{
+    width: 20px;
+    height: 20px;
+
+    background: green;
+    border-radius: 50%;
+
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+/* 8 */
+.top-btn{
+    position: fixed;
+
+    bottom: 20px;
+    right: 20px;
+
+    background: black;
+    color: white;
+    padding: 15px;
+}
+
+/* 9 */
+.clock{
+    width: 300px;
+    height: 300px;
+
+    border: 5px solid black;
+    border-radius: 50%;
+
+    position: relative;
+}
+
+.dot{
+    width: 20px;
+    height: 20px;
+
+    background: red;
+    border-radius: 50%;
+
+    position: absolute;
+}
+
+.top{
+    top: 10px;
+    left: 140px;
+}
+
+.right{
+    top: 140px;
+    right: 10px;
+}
+
+.bottom{
+    bottom: 10px;
+    left: 140px;
+}
+
+.left{
+    top: 140px;
+    left: 10px;
+}
+
+/* 10 */
+.gallery{
+    display: flex;
+    gap: 20px;
+}
+
+.photo{
+    position: relative;
+}
+
+.photo img{
+    width: 200px;
+}
+
+.new{
+    position: absolute;
+
+    top: 10px;
+    right: 10px;
+
+    background: orange;
+    color: white;
+    padding: 5px;
+}
+
+/* 11 */
+.footer{
+    position: sticky;
+    bottom: 0;
+
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
