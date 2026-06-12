@@ -1,0 +1,153 @@
+/* 1 */
+.box1{
+    width:200px;
+    height:200px;
+    background:blue;
+    transform:translateX(100px);
+}
+
+/* 2 */
+.box2{
+    width:150px;
+    height:150px;
+    background:red;
+    transform:translateY(80px);
+}
+
+/* 3 */
+.box3{
+    width:150px;
+    height:150px;
+    background:blue;
+    transform:translateX(-50px);
+}
+
+/* 4 */
+.box4{
+    width:150px;
+    height:150px;
+    background:green;
+    transform:translateY(-60px);
+}
+
+/* 5 */
+.box5{
+    width:200px;
+    height:200px;
+    background:orange;
+    transform:translate(120px, 70px);
+}
+
+/* 6 */
+.btn1{
+    padding:10px 20px;
+}
+.btn1:hover{
+    transform:translate(10px,15px);
+}
+
+/* 7 */
+.card{
+    width:250px;
+    padding:20px;
+    background:white;
+    border:1px solid #ccc;
+    transition:0.3s;
+}
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 8px 20px rgb(0, 0, 0);
+}
+
+/* 8 */
+.box8{
+    width:150px;
+    height:150px;
+    background:purple;
+    transform:scaleX(2);
+}
+
+/* 9 */
+.box9{
+    width:150px;
+    height:150px;
+    background:red;
+    transform:scaleY(1.5);
+}
+
+/* 10 */
+.box10{
+    width:200px;
+    height:200px;
+    background:cyan;
+    transform:scale(1.5);
+}
+
+/* 11 */
+.btn2{
+    padding:10px 20px;
+}
+.btn2:hover{
+    transform:scale(1.2);
+}
+
+/* 12 */
+.box12{
+    width:100px;
+    height:100px;
+    background:green;
+    transform:rotateX(30deg);
+}
+
+/* 13 */
+.box13{
+    width:100px;
+    height:100px;
+    background:orange;
+    transform:rotateY(55deg);
+}
+
+/* 14 */
+.btn3{
+    padding:10px 20px;
+}
+.btn3:hover{
+    transform:rotate(90deg);
+}
+
+/* 15 */
+.box15{
+    width:150px;
+    height:150px;
+    background:teal;
+   
+}
+.box15:hover{
+    transform:rotateX(60deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
