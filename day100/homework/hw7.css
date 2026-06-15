@@ -1,0 +1,29 @@
+.info-box{
+    width:300px;
+    height:120px;
+    background:gray;
+    overflow:hidden;
+
+    transition:all 0.8s;
+}
+
+.info-box:hover{
+    height:250px;
+    background:lightblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

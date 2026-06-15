@@ -1,0 +1,41 @@
+.profile-card{
+    width:250px;
+    text-align:center;
+    padding:20px;
+    transition:all 0.5s;
+}
+
+.profile-card img{
+    width:120px;
+    transition:all 0.5s;
+}
+
+.profile-card h2{
+    transition:all 0.5s;
+}
+
+.profile-card:hover{
+    box-shadow:0 0 20px gray;
+}
+
+.profile-card:hover img{
+    transform:scale(1.1);
+}
+
+.profile-card:hover h2{
+    color:blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

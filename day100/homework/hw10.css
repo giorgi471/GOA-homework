@@ -1,0 +1,31 @@
+input{
+    padding:10px;
+    margin:10px;
+    border:2px solid gray;
+
+    transition:all 0.4s;
+}
+
+input:focus{
+    border:2px solid blue;
+    transform:scale(1.05);
+}
+
+input:focus::placeholder{
+    color:red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,44 @@
+.circle{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    display:inline-block;
+    margin:10px;
+
+    transition:all 0.5s linear 0.5s;
+}
+
+.red{
+    background:red;
+}
+
+.yellow{
+    background:yellow;
+}
+
+.green{
+    background:green;
+}
+
+.red:hover{
+    box-shadow:0 0 25px red;
+}
+
+.yellow:hover{
+    box-shadow:0 0 25px yellow;
+}
+
+.green:hover{
+    box-shadow:0 0 25px lime;
+}
+
+
+
+
+
+
+
+
+
+
+
