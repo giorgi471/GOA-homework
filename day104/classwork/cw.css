@@ -1,0 +1,63 @@
+/* div {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: yellow;
+    animation: gio 4s linear 2s 5 alternate;
+    
+
+}
+
+
+
+@keyframes gio {
+    from {
+        transform: translateX(0) scale(1);
+        background: yellow;
+    }
+
+    to {
+        transform: translateX(500px) scale(1.5);
+        background: blue;
+    }
+
+} */
+
+
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    animation: gio 5s  infinite alternate;
+}
+
+
+
+@keyframes gio {
+
+    0% {
+        border-radius: 10px;
+        background-color: yellow;
+        transform: scale(1.2) rotate(20deg);
+    }
+
+    50% {
+        border-radius: 20px;
+        background-color: red;
+        transform: translateY(100px) scale(1.5) rotate(50deg);
+    }
+
+    75% {
+        border-radius: 50px;
+        background-color: blue;
+        transform: translateY(200px) scale(2) rotate(140deg);
+    }
+
+    100% {
+        border-radius: 50%;
+        background-color: orange;
+        box-shadow: 0px 0px 30px orange;
+        transform: translateY(400px) scale(1.5) rotate(180deg);
+    }
+}

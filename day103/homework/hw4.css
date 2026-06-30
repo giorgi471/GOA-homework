@@ -1,0 +1,12 @@
+button {
+  animation: giorgi 1.5s ease-in-out infinite;
+}
+
+@keyframes giorgi {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.3);
+  }
+}

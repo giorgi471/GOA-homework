@@ -1,0 +1,18 @@
+div {
+  width: 100px;
+  height: 100px;
+  background: green;
+  animation: giorgi 3s linear 3s 5;
+}
+
+@keyframes giorgi {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100vw);
+  }
+}
+
+
+

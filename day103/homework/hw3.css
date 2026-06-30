@@ -1,0 +1,13 @@
+h1 {
+  opacity: 0;
+  animation: giorgi 2s 2s forwards;
+}
+
+@keyframes giorgi {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,17 @@
+div {
+  width: 0px;
+  height: 100px;
+  background: purple;
+  animation: giorgi 5s 1s forwards;
+}
+
+@keyframes giorgi {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 400px;
+  }
+}
+
+

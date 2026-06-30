@@ -1,0 +1,19 @@
+div {
+  width: 100px;
+  height: 100px;
+  background: white;
+  animation: giorgi 3s ease-in infinite;
+}
+
+@keyframes giorgi {
+  from {
+    transform: scale(0.5) translateY(0);
+    background: white;
+  }
+  to {
+    transform: scale(1.5) translateY(-500px);
+    background: red;
+  }
+}
+
+

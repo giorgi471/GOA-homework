@@ -1,0 +1,19 @@
+div {
+  width: 100px;
+  height: 100px;
+  background: yellow;
+  border-radius: 50%;
+  animation: giorgi 4s forwards;
+}
+
+@keyframes giorgi {
+  from {
+    transform: translateY(0);
+    background: yellow;
+  }
+  to {
+    transform: translateY(-250px);
+    background: orange;
+  }
+}
+

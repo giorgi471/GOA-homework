@@ -1,0 +1,22 @@
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  animation: giorgi 3s linear infinite;
+}
+
+@keyframes giorgi {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(500px);
+  }
+}
+
+
+
+
+
+
+
