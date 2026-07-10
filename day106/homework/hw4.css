@@ -1,0 +1,33 @@
+.container{
+    display:grid;
+    grid-template-columns:100px 100px 100px;
+    grid-template-rows:70px 70px;
+
+    width:700px;
+    height:500px;
+
+    align-content:center;
+    border:2px solid black;
+}
+
+.item{
+    background:green;
+    color:white;
+    padding:20px;
+}
+
+/*
+align-content:start
+მთელი Grid ზედა მხარეს გადადის.
+
+align-content:center
+მთელი Grid ვერტიკალურად ცენტრში დგება.
+
+align-content:end
+მთელი Grid ქვედა მხარეს გადადის.
+*/
+
+
+
+
+

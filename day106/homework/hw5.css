@@ -1,0 +1,31 @@
+.container{
+    display:grid;
+    grid-template-columns:120px 120px 120px;
+
+    justify-items:center;
+}
+
+.item{
+    width:60px;
+    background:purple;
+    color:white;
+    padding:20px;
+}
+
+/*
+justify-items:start
+ელემენტი უჯრის მარცხენა მხარესაა.
+
+justify-items:center
+ელემენტი ცენტრშია.
+
+justify-items:end
+ელემენტი უჯრის მარჯვენა მხარესაა.
+*/
+
+
+
+
+
+
+

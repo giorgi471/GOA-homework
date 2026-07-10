@@ -1,0 +1,26 @@
+.container{
+    display:grid;
+    grid-template-columns:2fr 1fr 1fr;
+    grid-template-rows:150px 150px;
+    gap:5px;
+}
+
+.a{
+    background:#e61d72;
+    grid-row:1/3;
+}
+
+.b{
+    background:orange;
+    grid-column:2/4;
+}
+
+.c{
+    background:#a63dc2;
+}
+
+.d{
+    background:#687a8a;
+}
+
+

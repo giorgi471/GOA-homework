@@ -1,0 +1,35 @@
+
+/*
+justify-items არეგულირებს თითოეული ელემენტის
+მდებარეობას თავისი უჯრის შიგნით.
+
+start - მარცხნივ
+center - ცენტრში
+end - მარჯვნივ
+*/
+
+.container{
+    display:grid;
+    grid-template-columns:150px 150px;
+    justify-items:center;
+    border:2px solid black;
+}
+
+.item{
+    width:60px;
+    background:blue;
+    color:white;
+    padding:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
