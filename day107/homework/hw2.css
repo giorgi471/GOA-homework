@@ -1,0 +1,30 @@
+.grid2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    width: 240px;
+}
+
+.grid2 div {
+    width: 50px;
+    height: 50px;
+    background: #5b983d;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
