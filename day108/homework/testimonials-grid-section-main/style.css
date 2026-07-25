@@ -5,7 +5,7 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
-     font-family: "Barlow Semi Condensed", sans-serif;
+    font-family: "Barlow Semi Condensed", sans-serif;
 }
 
 body{
@@ -13,7 +13,7 @@ body{
     display:flex;
     justify-content:center;
     align-items:center;
-    min-height:100vh;
+    height:100vh;
     padding:40px;
 }
 
@@ -28,13 +28,16 @@ body{
     padding:30px;
     border-radius:15px;
     box-shadow:0 15px 35px rgba(0,0,0,.15);
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    
 }
 
 .card img{
     width:45px;
     height:45px;
     border-radius:50%;
-    margin-bottom:10px;
 }
 
 .card h3{
@@ -47,7 +50,6 @@ body{
 }
 
 .card h2{
-    margin:20px 0;
     font-size:23px;
     line-height:1.4;
 }
@@ -88,7 +90,11 @@ body{
 
 
 
-
+.user{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
 
 
 
