@@ -1,0 +1,16 @@
+.container{
+    display:flex;
+    gap:10px;
+}
+
+.block{
+    width:150px;
+    height:150px;
+    background:orange;
+}
+
+@media (max-width:768px){
+    .container{
+        flex-direction:column;
+    }
+}

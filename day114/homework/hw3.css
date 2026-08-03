@@ -1,0 +1,25 @@
+.container{
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+}
+
+.card{
+    width:23%;
+    height:150px;
+    background:skyblue;
+}
+
+@media (max-width:768px){
+    .card{
+        width:48%;
+    }
+}
+
+@media (max-width:480px){
+    .card{
+        width:100%;
+    }
+}
+
+

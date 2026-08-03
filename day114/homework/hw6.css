@@ -1,0 +1,18 @@
+.card{
+    width:350px;
+    height:400px;
+    background:lightgray;
+}
+
+@media (max-width:768px){
+    .card{
+        width:250px;
+        height:320px;
+    }
+}
+
+@media (max-width:480px){
+    .card{
+        width:100%;
+    }
+}
