@@ -285,6 +285,377 @@ header {
 
 
 
+.features {
+    padding: 60px 20px 70px;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 20px;
+    line-height: 1.3;
+    font-weight: 700;
+    margin-bottom: 45px;
+}
+
+.feature-grid {
+    max-width: 700px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 70px;
+    row-gap: 40px;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circle {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    margin-bottom: 14px;
+}
+
+.feature h3 {
+    font-size: 12px;
+    line-height: 1.25;
+    font-weight: 700;
+}
+
+
+
+
+.cyan {
+    background: #22dedb;
+}
+
+.green {
+    background: #35c7bd;
+}
+
+.blue {
+    background: #1da2c5;
+}
+
+.orange {
+    background: #d9955c;
+}
+
+.red {
+    background: #ff4844;
+}
+
+.purple {
+    background: #c58af0;
+}
+
+
+
+
+.interviews {
+    background: #f1f1f1;
+    text-align: center;
+    padding-top: 55px;
+    padding-bottom: 35px;
+}
+
+.interviews h2 {
+    font-size: 17px;
+    line-height: 1.3;
+    margin-bottom: 45px;
+}
+
+.people2 {
+    max-width: 950px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.person {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.person-image {
+    width: 180px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 15px;
+}
+
+.person-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.quote {
+    font-size: 11px;
+    line-height: 1.35;
+    font-weight: 700;
+    min-height: 48px;
+    margin-bottom: 12px;
+}
+
+.person h4 {
+    font-size: 9px;
+    font-weight: 400;
+    margin-bottom: 3px;
+}
+
+.person span {
+    font-size: 8px;
+    margin-bottom: 25px;
+}
+
+.person a {
+    font-size: 9px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+
+.newsletter {
+    text-align: center;
+    padding: 27px 20px 30px;
+}
+
+.newsletter h2 {
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+
+.newsletter p {
+    font-size: 7px;
+    line-height: 1.3;
+    margin-bottom: 15px;
+}
+
+.newsletter form {
+    width: 280px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name-fields {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    margin-bottom: 7px;
+}
+
+.newsletter input {
+    height: 28px;
+    border: 1px solid #999;
+    padding: 0 8px;
+    font-size: 8px;
+    outline: none;
+}
+
+.newsletter input::placeholder {
+    color: #999;
+}
+
+.name-fields input {
+    width: 50%;
+}
+
+.newsletter  input {
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.newsletter button {
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+
+    width: 70px;
+    height: 18px;
+
+    font-size: 7px;
+}
+
+
+
+
+footer {
+    background: #000;
+    color: #fff;
+    min-height: 150px;
+}
+
+.footer-content {
+    max-width: 950px;
+    min-height: 150px;
+    margin: 0 auto;
+
+    padding: 35px 30px;
+
+    display: grid;
+    grid-template-columns: 1fr 120px 160px;
+    gap: 50px;
+}
+
+.logo2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.socials {
+    display: flex;
+    gap: 13px;
+}
+
+.socials a {
+    font-size: 13px;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-column h4 {
+    font-size: 7px;
+    margin-bottom: 15px;
+}
+
+.footer-column a {
+    font-size: 7px;
+    margin-bottom: 5px;
+}
+
+
+
+
+@media (max-width: 992px) {
+
+    .feature-grid {
+        max-width: 650px;
+        column-gap: 40px;
+    }
+
+    .people2 {
+        max-width: 800px;
+        gap: 20px;
+    }
+
+    .person-image {
+        width: 160px;
+        height: 140px;
+    }
+
+    .footer-content {
+        max-width: 800px;
+    }
+}
+
+
+
+
+@media (max-width: 768px) {
+
+    .features {
+        padding-top: 45px;
+        padding-bottom: 55px;
+    }
+
+    .features h2 {
+        font-size: 18px;
+        margin-bottom: 35px;
+    }
+
+    .feature-grid {
+        max-width: 500px;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 50px;
+        row-gap: 35px;
+    }
+
+    .interviews {
+        padding-top: 45px;
+    }
+
+    .interviews h2 {
+        font-size: 16px;
+        margin-bottom: 35px;
+    }
+
+    .people2 {
+        max-width: 600px;
+        grid-template-columns: 1fr;
+        gap: 45px;
+    }
+
+    .person-image {
+        width: 180px;
+        height: 150px;
+    }
+
+    .quote {
+        min-height: auto;
+    }
+
+    .person span {
+        margin-bottom: 15px;
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+
+    .footer-left {
+        grid-column: 1 / -1;
+    }
+}
+
+
+
+
+
+
+  @media (max-width: 480px) {
+
+    .people2 {
+        width: 100%;
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+
+    .person-image {
+        width: 160px;
+        height: 140px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 922px) {
 
