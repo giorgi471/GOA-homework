@@ -112,42 +112,6 @@ console.log("_____________")
 
 
 
-let age1 = Number(prompt("შეიყვანე ასაკი:"))
-let ticketType = prompt("შეიყვანე ბილეთის ტიპი:").trim().toLowerCase()
-let name1 = prompt("შეიყვანე სახელი:").trim()
-
-if (age1 <= 0) {
-    console.log("არასწორი ასაკი")
-} else if (ticketType !== "vip" && ticketType !== "standard") {
-    console.log("ბილეთის ტიპი არასწორია")
-} else {
-    let price
-
-    if (age1 < 12) {
-        price = 5
-    } else if (age1 <= 17) {
-        price = 8
-    } else {
-        price = 15
-    }
-
-    if (ticketType === "vip") {
-        price = price + 10
-    }
-
-    if (name1.toLowerCase() === "admin") {
-        price = 0
-        console.log("ადმინისტრატორისთვის ბილეთი უფასოა")
-    }
-
-    console.log("მომხმარებელი:", name1)
-    console.log("გადასახდელი თანხა:", price, "ლარი")
-}
-
-
-
-console.log("__________________")
-
 
 
 let sentence = prompt("შეიყვანე წინადადება:").trim()
