@@ -53,7 +53,7 @@ let count3and5 = 0
 for (let i = start; i <= end; i++) {
     count++
 
-    if (i % 3 === 0) {
+    if (i % 2 !== 0) {
         count3++
     }
 
